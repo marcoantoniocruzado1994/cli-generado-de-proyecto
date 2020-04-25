@@ -1,0 +1,28 @@
+{
+  "name": "generador-proyecto-marco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoantoniocruzado1994/cli-generado-de-proyecto.git"
+  },
+  "author": "Marco Antino <marcoantoniocruzado@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcoantoniocruzado1994/cli-generado-de-proyecto/issues"
+  },
+  "bin": {
+    "npm-generador-servidor":"./index.js"
+  },
+  "homepage": "https://github.com/marcoantoniocruzado1994/cli-generado-de-proyecto#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "ejs": "^3.1.2",
+    "inquirer": "^7.1.0",
+    "shelljs": "^0.8.4"
+  }
+}
